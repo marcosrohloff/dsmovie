@@ -4,13 +4,13 @@ import './styles.css';
 function Navbar() {
     return (
         <header>
-            <nav className="container">
+            <nav className="container" >
                 <div className="dsmovie-nav-content">
                     <h1>DSMovie</h1>
-                    <a href="https://github.com/devsuperior" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/carlosjunior1983">
                         <div className="dsmovie-contact-container">
                             <GithubIcon />
-                            <p className="dsmovie-contact-link">/devsuperior</p>
+                            <p className="dsmovie-contact-link">/carlosjunior1983</p>
                         </div>
                     </a>
                 </div>
@@ -18,4 +18,5 @@ function Navbar() {
         </header>
     );
 }
+
 export default Navbar;
